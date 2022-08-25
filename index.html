@@ -1,12 +1,88 @@
 <!DOCTYPE HTML>
-<html>
+
+<html class="js no-touchevents details" lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>NSID</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8">
+<title>Government of Nova Scotia - NSID</title>
+<link rel="stylesheet" href="css/saltire.css">
+<link rel="stylesheet" href="https://novascotia.ca/clf/fonts/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/aria.accordion.css">
+<link rel="stylesheet" href="css/step-by-step.css">
+<link rel="stylesheet" href="global.css">
+
+
+<style>
+
+		figure {
+			background: #efefef;
+			padding: 4px;
+			margin: auto auto 1.5em auto;
+			text-align: center;
+			font-size: small;
+		}
+/* 
+		.hero-headline-container img {top: -200px;}
+		.hero-headline-container .hero-graphics {left: -38%;}
+		.hero-headline-container h1 {font-size: 2.75em; max-width: 28em;}
+     */
+figure {text-align: left;}
+.hidden-sm {display: none}
+
+@media only screen and (min-width: 989px) {
+  .hero-headline-container {height: 300px;}
+  .hero-headline-container h1 {font-size: 2.5em;}
+}
+@media only screen and (max-width: 1200px) {
+  .hero-headline-container {height: 300px;}
+  .hero-headline-container h1 {max-width: 16em; white-space: normal; font-size: 2.5em;}
+}
+@media only screen and (max-width: 989px) {
+  .hero-headline {width: 56em;}
+}
+@media only screen and (max-width: 760px) {
+  .hero-headline {display: none;}
+  .hidden-sm {display: block}
+  .hero-headline-container img {top: 0px;}
+  .hero-headline-container {height: 250px;}
+}
+@media only screen and (max-width: 600px) {
+  .hero-headline-container {height: 180px;}
+}
+
+
+
+.content-chunk {background: #d4e7f0; border-radius: 6px; padding: 1.5em; margin-bottom: 1.5em; color: #333; z-index: 2; position: relative;}
+		.card-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+			grid-template-rows: auto;
+			grid-gap: 2rem;
+		}
+
+		.card-grid.tint .card {
+			background: #efefef;
+		}
+
+
+</style>
+
 </head>
 <body>
     <h1>NSID</h1>
 	<p>I'm hosted with GitHub Pages.</p>
 </body>
+
+<footer>
+	<div class="container">
+		<a href="mailto:internet@novascotia.ca"></a>
+	</div>
+</footer>
+
+<script src="js/aria.accordion.js"></script>
+<script src="js/modernizr.min.js?v=3.3.1"></script>
+<script src="js/script.min.js"></script>
+
 </html>
+
+
+
