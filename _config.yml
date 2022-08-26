@@ -1,4 +1,6 @@
-theme: 
-title: digital-platform-services
-description: digital-platform-services
-baseurl: /
+theme               : 
+title               : digital-platform-services
+description         : digital-platform-services
+source              : .
+destination         : ./_site
+includes_dir        : _includes
